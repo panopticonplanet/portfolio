@@ -1,12 +1,14 @@
 header {
-    text-align: center;
-    font-weight: bold;
+  text-align: center;
+  font-weight: bold;
 }
 
 table {
-    background-color: grey;
+  background-color: grey;
+  width: 100%;
+  text-align: center;
 }
 
-
-
-
+td {
+    background-color: blueviolet;
+}

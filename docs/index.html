@@ -1,301 +1,521 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Martin Henderson — developer portfolio blending frontend learning, Python, Linux, deployment, security-minded systems, and high-precision communication.">
-  <title>Martin Henderson | Interactive Developer Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="page-glow" aria-hidden="true"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Martin Henderson | Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Developer portfolio for Martin Henderson — a programmer with a high-trust legal-financial background, focused on practical software, web development, and security-conscious systems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a href="#top" class="brand">Martin Henderson</a>
-      <nav class="nav" aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#stack">Stack</a>
-        <a href="#projects">Projects</a>
-        <a href="#advantage">Advantage</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+    <div class="page-shell">
+      <div class="bg-orb orb-blue"></div>
+      <div class="bg-orb orb-green"></div>
+      <div class="bg-orb orb-red"></div>
 
-  <main id="top">
-    <section class="hero section">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Developer • Translator • Security-minded builder</p>
-          <h1>From high-stakes language work to practical software and web development.</h1>
-          <p class="lead">
-            I am a Madrid-based developer in transition from a long legal-financial translation career into programming and technical work. I build clean static sites, learn fast, care about secure defaults, and bring an unusual combination of editorial precision, domain knowledge, and systems curiosity.
-          </p>
+      <header class="site-header">
+        <div class="container nav-wrap">
+          <a href="#hero" class="brand" aria-label="Homepage">
+            <span class="brand-mark">MH</span>
+            <span class="brand-text">
+              <strong>Martin Henderson</strong>
+              <span>Developer Portfolio</span>
+            </span>
+          </a>
 
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projects">Explore projects</a>
-            <a class="button button-secondary" href="#contact">Contact me</a>
-          </div>
+          <nav class="site-nav" aria-label="Primary navigation">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#strengths">Strengths</a>
+            <a href="#contact">Contact</a>
+          </nav>
 
-          <div class="signal-grid" aria-label="Key profile signals">
-            <article class="signal-card interactive" tabindex="0">
-              <span class="signal-label">Focus</span>
-              <strong>Frontend foundations</strong>
-              <p>HTML, CSS, JavaScript, responsive layouts, structure, and clarity.</p>
-            </article>
-            <article class="signal-card interactive" tabindex="0">
-              <span class="signal-label">Learning track</span>
-              <strong>Python + full-stack concepts</strong>
-              <p>Building toward practical apps, workflows, and product thinking.</p>
-            </article>
-            <article class="signal-card interactive" tabindex="0">
-              <span class="signal-label">Mindset</span>
-              <strong>Security and simplicity</strong>
-              <p>Linux, deployment, VPN/DNS hardening, and low-friction solutions.</p>
-            </article>
-          </div>
+          <a class="button button-sm button-outline" href="#contact">Let’s talk</a>
         </div>
+      </header>
 
-        <aside class="profile-panel interactive" tabindex="0" aria-label="Profile photo placeholder and summary">
-          <div class="photo-placeholder" role="img" aria-label="Placeholder for profile photo">
-            <div class="photo-ring">
-              <span>Drop your<br>profile photo<br>here</span>
+      <main id="main">
+        <section class="hero section" id="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy reveal">
+              <span class="eyebrow">
+                <i class="fa-solid fa-code"></i>
+                Developer transitioning from high-trust legal-financial work
+              </span>
+
+              <h1>
+                Building clean, credible software with a precision-first,
+                security-conscious mindset.
+              </h1>
+
+              <p class="hero-text">
+                I’m a developer focused on practical web and software projects,
+                with a professional background in complex legal-financial
+                translation. That earlier work sharpened the qualities that also
+                matter in development: rigor, structure, accuracy,
+                confidentiality, and clear communication.
+              </p>
+
+              <div class="hero-actions">
+                <a class="button button-primary" href="#projects">View projects</a>
+                <a class="button button-secondary" href="#contact">Contact me</a>
+              </div>
+
+              <ul class="hero-highlights" aria-label="Core highlights">
+                <li>
+                  <i class="fa-solid fa-laptop-code"></i>
+                  Web and software development focus
+                </li>
+                <li>
+                  <i class="fa-solid fa-shield-halved"></i>
+                  Security and privacy aware
+                </li>
+                <li>
+                  <i class="fa-solid fa-comments"></i>
+                  Strong writing and documentation skills
+                </li>
+              </ul>
+            </div>
+
+            <aside class="hero-panel reveal reveal-delay-1" aria-label="Profile overview">
+              <div class="profile-card tilt-card">
+                <div class="profile-top">
+                  <div class="profile-photo" aria-label="Profile photo placeholder">
+                    <div class="profile-photo-inner">
+                      <span>Profile Photo</span>
+                    </div>
+                  </div>
+
+                  <div class="profile-meta">
+                    <p class="profile-role">Developer</p>
+                    <h2>Martin Henderson</h2>
+                    <p>
+                      Transitioning into development with a strong foundation in
+                      structured thinking, client-facing communication, and
+                      detail-heavy professional work.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="mini-stats">
+                  <article>
+                    <span class="stat-number">7+</span>
+                    <span class="stat-label">Core tools actively used</span>
+                  </article>
+                  <article>
+                    <span class="stat-number">High</span>
+                    <span class="stat-label">Trust environment experience</span>
+                  </article>
+                  <article>
+                    <span class="stat-number">Strong</span>
+                    <span class="stat-label">Documentation & communication</span>
+                  </article>
+                </div>
+
+                <div class="signal-row">
+                  <span><i class="fa-solid fa-circle-check"></i> Analytical</span>
+                  <span><i class="fa-solid fa-circle-check"></i> Methodical</span>
+                  <span><i class="fa-solid fa-circle-check"></i> Reliable</span>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="section" id="about">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-kicker">About</span>
+              <h2>A developer profile built on precision, trust, and complex-domain work.</h2>
+              <p>
+                I am moving into programming and development with a serious,
+                disciplined approach. My previous work required accuracy,
+                discretion, careful structuring, and the ability to make complex
+                material understandable — all of which translate well into good
+                engineering habits.
+              </p>
+            </div>
+
+            <div class="about-grid">
+              <article class="info-card tilt-card reveal">
+                <div class="card-icon"><i class="fa-solid fa-briefcase"></i></div>
+                <h3>Professional maturity</h3>
+                <p>
+                  Experienced in demanding, high-trust environments where
+                  consistency, precision, and accountability are expected.
+                </p>
+              </article>
+
+              <article class="info-card tilt-card reveal reveal-delay-1">
+                <div class="card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                <h3>Technical direction</h3>
+                <p>
+                  Building practical skills in front-end, general programming,
+                  and product-oriented development with an emphasis on clarity
+                  and maintainability.
+                </p>
+              </article>
+
+              <article class="info-card tilt-card reveal reveal-delay-2">
+                <div class="card-icon"><i class="fa-solid fa-lock"></i></div>
+                <h3>Security mindset</h3>
+                <p>
+                  Naturally drawn to privacy-aware systems, careful workflows,
+                  and technologies that treat user data and operational risk
+                  seriously.
+                </p>
+              </article>
             </div>
           </div>
+        </section>
 
-          <div class="profile-copy">
-            <h2>Why I’m different</h2>
-            <p>
-              My previous career trained me to handle complexity, ambiguity, and accuracy under pressure. That now shows up in my code, documentation, naming, debugging, and user-facing writing.
-            </p>
-            <ul class="mini-list">
-              <li>Strong written communication</li>
-              <li>Legal-financial domain knowledge</li>
-              <li>Documentation-friendly work style</li>
-              <li>Calm, methodical troubleshooting</li>
-            </ul>
+        <section class="section section-alt" id="skills">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-kicker">Skills / Tech Stack</span>
+              <h2>Current tools, technologies, and areas of focus.</h2>
+              <p>
+                I’m developing a strong working foundation across web
+                development, programming fundamentals, tooling, and deployment-
+                adjacent workflows.
+              </p>
+            </div>
+
+            <div class="skills-layout">
+              <div class="skills-grid">
+                <article class="skill-card tilt-card reveal">
+                  <div class="skill-logo"><i class="devicon-html5-plain colored"></i></div>
+                  <h3>HTML5</h3>
+                  <p>Semantic structure, accessibility basics, clean page architecture.</p>
+                </article>
+
+                <article class="skill-card tilt-card reveal reveal-delay-1">
+                  <div class="skill-logo"><i class="devicon-css3-plain colored"></i></div>
+                  <h3>CSS3</h3>
+                  <p>Responsive layout, modern UI styling, spacing, and visual hierarchy.</p>
+                </article>
+
+                <article class="skill-card tilt-card reveal reveal-delay-2">
+                  <div class="skill-logo"><i class="devicon-javascript-plain colored"></i></div>
+                  <h3>JavaScript</h3>
+                  <p>DOM work, logic, interactivity, and front-end problem solving.</p>
+                </article>
+
+                <article class="skill-card tilt-card reveal">
+                  <div class="skill-logo"><i class="devicon-python-plain colored"></i></div>
+                  <h3>Python</h3>
+                  <p>Programming fundamentals, scripting, and practical learning projects.</p>
+                </article>
+
+                <article class="skill-card tilt-card reveal reveal-delay-1">
+                  <div class="skill-logo"><i class="devicon-java-plain colored"></i></div>
+                  <h3>Java</h3>
+                  <p>Growing familiarity with typed programming and broader software concepts.</p>
+                </article>
+
+                <article class="skill-card tilt-card reveal reveal-delay-2">
+                  <div class="skill-logo"><i class="devicon-react-original colored"></i></div>
+                  <h3>React</h3>
+                  <p>Component thinking, props, hooks, state, and reusable UI patterns.</p>
+                </article>
+
+                <article class="skill-card tilt-card reveal">
+                  <div class="skill-logo"><i class="devicon-git-plain colored"></i></div>
+                  <h3>Git</h3>
+                  <p>Version control, iterative development, and portfolio-ready workflows.</p>
+                </article>
+
+                <article class="skill-card tilt-card reveal reveal-delay-1">
+                  <div class="skill-logo"><i class="devicon-linux-plain colored"></i></div>
+                  <h3>Linux</h3>
+                  <p>Command line comfort, server interest, and system-oriented learning.</p>
+                </article>
+              </div>
+
+              <aside class="stack-panel tilt-card reveal reveal-delay-2">
+                <div class="stack-panel-head">
+                  <span class="section-kicker">What I’m building toward</span>
+                  <h3>Developer profile highlights</h3>
+                </div>
+
+                <ul class="focus-list">
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    Practical front-end and product-oriented development
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    Legal-tech and domain-heavy software opportunities
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    Security-conscious tools and workflows
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i>
+                    Clear documentation and thoughtful implementation
+                  </li>
+                </ul>
+              </aside>
+            </div>
           </div>
-        </aside>
-      </div>
-    </section>
+        </section>
 
-    <section class="section" id="about">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">About</p>
-          <h2>Built for roles where technical growth and communication both matter</h2>
-          <p>
-            I am especially suited to junior developer, frontend, developer support, technical content, and adjacent roles where careful thinking is an asset. I like understandable code, maintainable structure, clear UI, and workflows that reduce friction instead of adding it.
-          </p>
-        </div>
+        <section class="section" id="projects">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-kicker">Selected Projects</span>
+              <h2>Project ideas and build directions that reflect how I think.</h2>
+              <p>
+                These cards can be linked to live demos or repositories. The
+                framing below emphasizes practical products, structured problem
+                solving, and strong communication through code.
+              </p>
+            </div>
 
-        <div class="cards-grid">
-          <article class="card interactive" tabindex="0">
-            <h3>Clean frontend thinking</h3>
-            <p>I care about semantic HTML, readable CSS, sensible layout, responsive behavior, and user trust.</p>
-          </article>
-          <article class="card interactive" tabindex="0">
-            <h3>Practical programming</h3>
-            <p>I am actively learning Python and JavaScript by turning concepts into real mini-projects and reusable patterns.</p>
-          </article>
-          <article class="card interactive" tabindex="0">
-            <h3>Linux and deployment</h3>
-            <p>I have hands-on experience with self-hosting, Git-based deployment, permissions fixes, server troubleshooting, and GitHub Pages.</p>
-          </article>
-          <article class="card interactive" tabindex="0">
-            <h3>Editorial precision</h3>
-            <p>I bring years of high-accuracy professional work, which translates directly into better naming, documentation, review discipline, and polish.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+            <div class="project-grid">
+              <article class="project-card tilt-card reveal">
+                <div class="project-preview preview-one" aria-hidden="true">
+                  <div class="browser-bar">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="preview-layout">
+                    <div class="preview-sidebar"></div>
+                    <div class="preview-content">
+                      <div class="preview-line wide"></div>
+                      <div class="preview-line"></div>
+                      <div class="preview-chart"></div>
+                      <div class="preview-row">
+                        <span></span><span></span><span></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-body">
+                  <div class="project-meta">
+                    <span>Web App Concept</span>
+                    <span>Practical Product</span>
+                  </div>
+                  <h3>Document workflow or legal-tech interface</h3>
+                  <p>
+                    A structured interface for working with complex documents,
+                    emphasizing usability, consistency, and trust in information-
+                    heavy environments.
+                  </p>
+                  <ul class="project-tags">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>UX thinking</li>
+                  </ul>
+                </div>
+              </article>
 
-    <section class="section alt" id="stack">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Stack</p>
-          <h2>Languages, tools, and technologies I’m actively using or learning</h2>
-          <p>Hover or tab through the tiles to bring them into focus.</p>
-        </div>
+              <article class="project-card tilt-card reveal reveal-delay-1">
+                <div class="project-preview preview-two" aria-hidden="true">
+                  <div class="browser-bar">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="code-preview">
+                    <div class="code-line short"></div>
+                    <div class="code-line medium"></div>
+                    <div class="code-line long"></div>
+                    <div class="code-line medium"></div>
+                    <div class="code-line short"></div>
+                  </div>
+                </div>
+                <div class="project-body">
+                  <div class="project-meta">
+                    <span>Learning Build</span>
+                    <span>Programming Fundamentals</span>
+                  </div>
+                  <h3>Interactive development projects</h3>
+                  <p>
+                    Small but thoughtful builds that demonstrate working with
+                    logic, UI behavior, state, and the discipline of learning by
+                    shipping and refining.
+                  </p>
+                  <ul class="project-tags">
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Python</li>
+                    <li>Git</li>
+                  </ul>
+                </div>
+              </article>
 
-        <div class="logo-grid" aria-label="Technology logos">
-          <article class="logo-card interactive" tabindex="0">
-            <i class="devicon-html5-plain colored" aria-hidden="true"></i>
-            <h3>HTML5</h3>
-            <p>Semantic structure, accessibility-minded markup, and solid page architecture.</p>
-          </article>
-          <article class="logo-card interactive" tabindex="0">
-            <i class="devicon-css3-plain colored" aria-hidden="true"></i>
-            <h3>CSS3</h3>
-            <p>Responsive layout, visual hierarchy, components, states, and modern styling.</p>
-          </article>
-          <article class="logo-card interactive" tabindex="0">
-            <i class="devicon-javascript-plain colored" aria-hidden="true"></i>
-            <h3>JavaScript</h3>
-            <p>Core logic, DOM work, dynamic behavior, and growing app-building confidence.</p>
-          </article>
-          <article class="logo-card interactive" tabindex="0">
-            <i class="devicon-python-plain colored" aria-hidden="true"></i>
-            <h3>Python</h3>
-            <p>Learning through scripts, utilities, encryption exercises, and problem solving.</p>
-          </article>
-          <article class="logo-card interactive" tabindex="0">
-            <i class="devicon-java-plain colored" aria-hidden="true"></i>
-            <h3>Java</h3>
-            <p>Developing foundational understanding while comparing ecosystems and patterns.</p>
-          </article>
-          <article class="logo-card interactive" tabindex="0">
-            <i class="devicon-react-original colored" aria-hidden="true"></i>
-            <h3>React</h3>
-            <p>Component thinking, props, state, hooks, and UI composition concepts.</p>
-          </article>
-          <article class="logo-card interactive" tabindex="0">
-            <i class="devicon-git-plain colored" aria-hidden="true"></i>
-            <h3>Git</h3>
-            <p>Version control, deployment hooks, iterative workflows, and publishing.</p>
-          </article>
-          <article class="logo-card interactive" tabindex="0">
-            <i class="devicon-linux-plain colored" aria-hidden="true"></i>
-            <h3>Linux</h3>
-            <p>Server setup, permissions, SSH, services, logs, and command-line problem solving.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="projects">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Projects</p>
-          <h2>Projects and directions that show how I think</h2>
-        </div>
-
-        <div class="projects-grid">
-          <article class="project-card featured interactive" tabindex="0">
-            <div class="tag">Featured product idea</div>
-            <h3>JASPA</h3>
-            <p class="project-subtitle">A translation workflow app shaped by real professional pain points</p>
-            <p>
-              A document-first concept where an LLM translates full files for context, then the user reviews and edits them segment by segment in a CAT-tool-style interface. It combines product thinking, UX, legal-language experience, and workflow design.
-            </p>
-            <ul>
-              <li>Context-aware document workflow</li>
-              <li>Search, QA, filtering, and segment review concepts</li>
-              <li>Built from actual user needs rather than theory</li>
-            </ul>
-          </article>
-
-          <article class="project-card interactive" tabindex="0">
-            <div class="tag">Infrastructure</div>
-            <h3>Raspberry Pi web server</h3>
-            <p>Set up deployment, fixed permission issues, handled service failures, and learned how small systems break in real life.</p>
-          </article>
-
-          <article class="project-card interactive" tabindex="0">
-            <div class="tag">Web</div>
-            <h3>Static sites for GitHub Pages</h3>
-            <p>Fast, low-friction websites built with plain HTML and CSS for reliability, readability, and easy hosting.</p>
-          </article>
-
-          <article class="project-card interactive" tabindex="0">
-            <div class="tag">Security</div>
-            <h3>VPN and DNS hardening</h3>
-            <p>Explored strongSwan, firewall rules, DNS-over-TLS, and secure-by-default server patterns.</p>
-          </article>
-
-          <article class="project-card interactive" tabindex="0">
-            <div class="tag">Learning by building</div>
-            <h3>Python mini-app roadmap</h3>
-            <p>Working through cipher and GUI projects step by step to turn abstract concepts into real code I understand.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt" id="advantage">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Advantage</p>
-          <h2>What my previous career adds to my developer profile</h2>
-        </div>
-
-        <div class="accordion-grid">
-          <details class="detail-card interactive" open>
-            <summary>High-precision work habits</summary>
-            <p>
-              Years in legal-financial translation taught me to work carefully, verify details, respect structure, and keep complex material understandable. That directly improves code review, testing habits, naming, and documentation.
-            </p>
-          </details>
-
-          <details class="detail-card interactive">
-            <summary>Domain-aware product thinking</summary>
-            <p>
-              I understand how professionals in law, finance, and other knowledge-heavy fields actually work. That helps me design tools and interfaces for real workflows, not generic demos.
-            </p>
-          </details>
-
-          <details class="detail-card interactive">
-            <summary>Security and trust sensitivity</summary>
-            <p>
-              I think a lot about confidentiality, risk, secure defaults, operational simplicity, and not exposing users or systems to avoidable problems.
-            </p>
-          </details>
-
-          <details class="detail-card interactive">
-            <summary>Clear writing for technical teams</summary>
-            <p>
-              I can explain things well, document processes cleanly, and bridge gaps between technical and non-technical people. That is valuable in development, support, onboarding, and internal tooling environments.
-            </p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="contact">
-      <div class="container">
-        <div class="contact-panel interactive" tabindex="0">
-          <div>
-            <p class="eyebrow">Contact</p>
-            <h2>Open to developer and adjacent technical roles</h2>
-            <p>
-              Especially relevant for junior web development, frontend, developer support, technical documentation, QA-minded roles, and positions where clarity, trust, and steady technical growth matter.
-            </p>
+              <article class="project-card tilt-card reveal reveal-delay-2">
+                <div class="project-preview preview-three" aria-hidden="true">
+                  <div class="browser-bar">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="security-preview">
+                    <div class="shield-ring">
+                      <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div class="security-lines">
+                      <div class="preview-line wide"></div>
+                      <div class="preview-line"></div>
+                      <div class="preview-line short"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-body">
+                  <div class="project-meta">
+                    <span>Systems Interest</span>
+                    <span>Security-Aware</span>
+                  </div>
+                  <h3>Privacy-conscious tools and infrastructure experiments</h3>
+                  <p>
+                    Projects that reflect an interest in controlled systems,
+                    reliable setup, and taking data handling, deployment, and
+                    operational detail seriously.
+                  </p>
+                  <ul class="project-tags">
+                    <li>Linux</li>
+                    <li>Security</li>
+                    <li>Configuration</li>
+                    <li>Documentation</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
           </div>
-          <div class="contact-box">
-            <p><strong>Email:</strong> your-email@example.com</p>
-            <p><strong>GitHub:</strong> github.com/your-username</p>
-            <p><strong>LinkedIn:</strong> linkedin.com/in/your-profile</p>
-            <p class="small-note">Replace the placeholders before publishing.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+        </section>
 
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <p>© 2026 Martin Henderson</p>
-      <p>Interactive one-page portfolio for GitHub Pages.</p>
+        <section class="section section-alt" id="strengths">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-kicker">What I bring</span>
+              <h2>Why my previous background is useful in development.</h2>
+              <p>
+                My earlier career is not the headline here — development is.
+                But it does add meaningful advantages that can be valuable on a
+                team, especially in careful, high-stakes, or domain-heavy work.
+              </p>
+            </div>
+
+            <div class="strength-grid">
+              <article class="strength-card tilt-card reveal">
+                <h3>Precision under pressure</h3>
+                <p>
+                  Comfortable handling complexity without becoming vague or
+                  careless. I naturally look for structure, consistency, and
+                  edge cases.
+                </p>
+              </article>
+
+              <article class="strength-card tilt-card reveal reveal-delay-1">
+                <h3>Clear communication</h3>
+                <p>
+                  Strong written communication, polished documentation habits,
+                  and an ability to explain technical or domain-heavy material
+                  clearly.
+                </p>
+              </article>
+
+              <article class="strength-card tilt-card reveal reveal-delay-2">
+                <h3>Trust and discretion</h3>
+                <p>
+                  Used to professional contexts where confidentiality,
+                  correctness, and responsible handling of sensitive material are
+                  non-negotiable.
+                </p>
+              </article>
+
+              <article class="strength-card tilt-card reveal">
+                <h3>Domain awareness</h3>
+                <p>
+                  A useful fit for legal-tech, regulated environments, and
+                  products that benefit from careful reading, structured logic,
+                  and high-quality language.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="contact">
+          <div class="container">
+            <div class="contact-panel tilt-card reveal">
+              <div class="contact-copy">
+                <span class="section-kicker">Contact</span>
+                <h2>Looking for a thoughtful developer with strong professional grounding?</h2>
+                <p>
+                  I’m building toward software and web development roles where
+                  careful thinking, communication quality, and technical growth
+                  are genuinely valued.
+                </p>
+              </div>
+
+              <div class="contact-actions">
+                <a class="button button-primary" href="mailto:your@email.com">
+                  <i class="fa-solid fa-envelope"></i>
+                  Email me
+                </a>
+                <a class="button button-secondary" href="https://github.com/yourusername" target="_blank" rel="noreferrer">
+                  <i class="fa-brands fa-github"></i>
+                  GitHub
+                </a>
+                <a class="button button-secondary" href="https://www.linkedin.com/in/yourusername/" target="_blank" rel="noreferrer">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                  LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-wrap">
+          <p>© <span id="year"></span> Martin Henderson. Built for GitHub Pages.</p>
+          <p>Developer first. Precision as an advantage.</p>
+        </div>
+      </footer>
     </div>
-  </footer>
 
-  <script>
-    const interactiveItems = document.querySelectorAll('.interactive');
+    <script>
+      const revealItems = document.querySelectorAll('.reveal');
 
-    interactiveItems.forEach((item) => {
-      item.addEventListener('pointermove', (event) => {
-        const rect = item.getBoundingClientRect();
-        const x = event.clientX - rect.left;
-        const y = event.clientY - rect.top;
-        item.style.setProperty('--mx', `${x}px`);
-        item.style.setProperty('--my', `${y}px`);
-      });
-    });
-  </script>
-</body>
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        {
+          threshold: 0.14,
+        }
+      );
+
+      revealItems.forEach((item) => observer.observe(item));
+
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>

@@ -10,5 +10,11 @@ table {
 }
 
 td {
-    background-color: blueviolet;
+  background-color: blueviolet;
+  border: double;
+  padding: 4px;
+}
+
+th {
+  border: solid;
 }
